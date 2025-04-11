@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            margin: auto;
+            width: 90%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h2, h3, h4 {
+            margin: 10px 0;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        th {
+            background-color: #e0e0e0;
+            color: #000;
+        }
+
+        td[colspan="2"] {
+            text-align: left;
+            background-color: #f9f9f9;
+        }
+
+        td:hover, th:hover {
+            background-color: #d6d6d6;
+        }
+
+        th[style*="border:none"], 
+        td[style*="border:none"] {
+            border: none;
+            background-color: #f5f5f5;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        tr:hover {
+            background-color: #e8e8e8;
+        }
+
+        /* Responsive tweaks */
+        @media (max-width: 768px) {
+            table, tr, td, th {
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h4>Name: Shravani Ganesh Jagdale</h4>
+    <h4>Roll No.: 61</h4>
+    <h2>D.Y.Patil College of Engineering & Technology, Kolhapur</h2>
+    <h3>Department of Computer Science & Engineering</h3>
+    <h3>Time Table 2024-2025 (SEM-IV)</h3>
+
+    <table>
+        <tr>
+            <th>Day & Time</th>
+            <th>9.00 to 10.00</th>
+            <th>10.00 to 11.00</th>
+            <th style="border:none;"></th>
+            <th>11.15 to 12.15</th>
+            <th>12.15 to 1.15</th>
+            <th style="border:none;"></th>
+            <th>2.00 to 3.00</th>
+            <th>3.00 to 4.00</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">
+                S1-DSL(SSKokate)(Lab 8)<br>
+                S2-AOOC(KBK)(Lab 5)<br>
+                S3-TPMS(PRP)(Lab 11)<br>
+                S4-TTL(SPS)(Lab 10)<br>
+                S5-TTL(IPT)(Lab 12)<br>
+                S6-WD(SSKORE)(Lab 2)
+            </td>
+            <td style="border:none;"></td>
+            <td>DS(L)<br>SSKokate</td>
+            <td>MDM-II(L)<br>(VVM)</td>
+            <td style="border:none;"></td>
+            <td>AT(L)<br>(KAB)</td>
+            <td>ES(L)<br>PA</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="2">
+                S1-WD(SSKORE)(Lab 2)<br>
+                S2-DSL(SSKokate)(Lab 8)<br>
+                S3-AOOC(KBK)(Lab 5)<br>
+                S4-TPMS(PRP)(Lab 11)<br>
+                S5-TTL(SPS)(Lab 10)<br>
+                S6-TTL(IPT)(Lab 12)
+            </td>
+            <td style="border:none;"></td>
+            <td>AT(L)<br>(KAB)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <td style="border:none;"></td>
+            <td>ES(L)<br>PA</td>
+            <td>WD(L)<br>SSKORE</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">
+                S1-TTL(IPT)(Lab 12)<br>
+                S2-WD(SSKORE)(Lab 2)<br>
+                S3-DSL(SSKokate)(Lab 8)<br>
+                S4-AOOC(KBK)(Lab 5)<br>
+                S5-TPMS(PRP)(Lab 11)<br>
+                S6-TTL(SPS)(Lab 10)
+            </td>
+            <td style="border:none;">B<br>R<br>E<br>A<br>K</td>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>MDM-II(L)<br>(VVM)</td>
+            <td style="border:none;">B<br>R<br>E<br>A<br>K</td>
+            <td>Dept.Activity</td>
+            <td>Dept.Activity</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td colspan="2">
+                S1-TTL(SPS)(Lab 10)<br>
+                S2-TTL(IPT)(Lab 12)<br>
+                S3-WD(SSKORE)(Lab 2)<br>
+                S4-DSL(SSKokate)(Lab 8)<br>
+                S5-AOOC(KBK)(Lab 5)<br>
+                S6-TPMS(PRP)(Lab 11)
+            </td>
+            <td style="border:none;"></td>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <td style="border:none;"></td>
+            <td>AT(L)<br>(KAB)</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="2">
+                S1-TPMS(PRP)(Lab 11)<br>
+                S2-TTL(SPS)(Lab 10)<br>
+                S3-TTL(IPT)(Lab 12)<br>
+                S4-WD(SSKORE)(Lab 2)<br>
+                S5-DSL(SSKokate)(Lab 8)<br>
+                S6-AOOC(KBK)(Lab 5)
+            </td>
+            <td style="border:none;"></td>
+            <td colspan="2">
+                S1-AOOC(KBK)(Lab 5)<br>
+                S2-TPMS(PRP)(Lab 11)<br>
+                S3-TTL(SPS)(Lab 10)<br>
+                S4-TTL(IPT)(Lab 12)<br>
+                S5-WD(SSKORE)(Lab 2)<br>
+                S6-DSL(SSKokate)(Lab 8)
+            </td>
+            <td style="border:none;"></td>
+            <td>TPMS(L)<br>(PRP)</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>LL(L)<br>(ASY,RSJ,MVB)</td>
+            <td>LL(L)<br>(ASY,RSJ,MVB)</td>
+            <td style="border:none;"></td>
+            <td>LL(L)<br>*Self</td>
+            <td>LL(L)<br>*Self</td>
+            <td style="border:none;"></td>
+            <td>Dept.Activity</td>
+            <td>Dept.Activity</td>
+        </tr>
+    </table>
+</body>
+</html>
